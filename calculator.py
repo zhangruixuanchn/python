@@ -43,7 +43,7 @@ def main():
         else:
             salary2 = salary1*0.45-13505
 
-        print(id_,':',format(salary-insurance-3500,".2f"))
+        print(id_,':',format(salary-insurance-salaty2,".2f"))
 
 
     except:
