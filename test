@@ -22,7 +22,10 @@ def main():
     #know the result
  
         try:
-            if salary1 <= 1500:
+            if salary1 <= 0:
+                salary2 = 0
+                
+            elif salary1 <= 1500:
                 salary2 = salary1*0.03- 0
 
             elif 1500 < salary1 <= 4500:
@@ -42,7 +45,7 @@ def main():
             else:
                 salary2 = salary1*0.45-13505
 
-            print(id_,':',format(salary-insurance-salary2,".2f"))
+            print(id_ +  ':' + format(salary-insurance-salary2,".2f"))
 
 
         except:
